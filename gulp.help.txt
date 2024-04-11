@@ -1,0 +1,16 @@
+Gulp lze použít pro kompilace SCSS zdrojů do CSS. 
+Tasky lze spouštět z adresáře ve kterém se nachází gulpfile.js, zde stačí tedy otevřít terminál a provést instalaci.
+
+Instalaci gulp toolkitu
+=======================
+"npm install --global gulp-cli"
+
+Instace zbylých npm balíčků
+===========================
+"npm install"
+
+Po instalaci lze spustit následovně
+===================================
+- "gulp sass" (task pro kompilaci)
+- "gulp watch" (task sledující změnu souborů a automaticky pouští gulp sass)
+- "gulp" (výchozí task spouštějící gulp watch)
